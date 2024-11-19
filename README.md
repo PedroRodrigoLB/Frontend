@@ -1,8 +1,7 @@
 # Frontend
 
 Estudo aplicado a HTML5 e CSS3
-<ul>
-    
+ 
 <a hrfe="https://pedrorodrigolb.github.io/Frontend/01-Blog/index.html" target="_black">Site Blog</a>
     
 <a hrfe="https://pedrorodrigolb.github.io/Frontend/02-Site_Androidl/index.html" target="_black">Site Android</a>
@@ -15,4 +14,3 @@ Estudo aplicado a HTML5 e CSS3
     
 <a hrfe="https://pedrorodrigolb.github.io/Frontend/06-Cordel/index.html" target="_black">Site Cordel</a>
     
-</ul>
