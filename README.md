@@ -9,7 +9,7 @@ Estudo aplicado a HTML5 e CSS3
        
     <li><a href="https://pedrorodrigolb.github.io/Frontend/03-Receita_pg_Principal/index.html" target="_black">Site Pagina de Receita</a></li>
        
-    <li><a href="https://pedrorodrigolb.github.io/Frontend/04-Perfil_de_links_profile/index.html" target="_black">Site Social Links</a></li>
+    <li><a href="https://pedrorodrigolb.github.io/Frontend/04-Social_links_profile/index.html" target="_black">Site Social Links</a></li>
        
     <li><a href="https://pedrorodrigolb.github.io/Frontend/05-imagens/index.html" target="_black">Site Android</a></li>
        
