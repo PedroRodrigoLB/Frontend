@@ -1,3 +1,8 @@
+<styles>
+    backgroud-![alt](https://img.freepik.com/fotos-gratis/papel-de-parede-abstrato-ultra-detalhado-da-nebulosa-4_1562-749.jpg)
+</styles>
+
+
 # Frontend
 
 Estudo aplicado a HTML5 e CSS3
