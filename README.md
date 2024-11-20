@@ -1,11 +1,7 @@
-# Frontend
+# Estudo Frontend
 
-<div>
-<img height=150 align="center" src="https://github-readme-stats.vercel.app/api?username=PedroRodrigoLB&show_icons=true&theme=buefy&rank_icon=github&include_all_commits=true" />
-<img height=150 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroRodrigoLB&layout=compact&theme=buefy" />
-</div>
 
-Estudo aplicado a HTML5 e CSS3
+
 <ul>
      
     <li><a href="https://pedrorodrigolb.github.io/Frontend/01-Blog/index.html" target="_black">Site Blog</a></li>
