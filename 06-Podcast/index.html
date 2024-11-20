@@ -4,16 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon_io/favicon.ico" type="image/x-icon">
-    <title>Desafio</title>
+    <title>Podcasts</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        :root{
+            --cor0:#0D0D0D;
+            --cor1:#401313;
+            --cor2:#8C2E2E;
+            --cor3:#F25252;
+            --cor4:#F20505;
+            --cor5:#ffffff;
+        }
+
+        body{
+            background-color: var(--cor0);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+            
+       heard h1{
+            background-color: var(--cor1);
+            color:var(--cor5);
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0px 0px 5px var(--cor5);
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            
+        }
+
+        main{
+            max-width: 80%;
+            background-color: var(--cor1);
+            margin: 10px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 5px var(--cor5);
+            border-radius: 20px;
+         
+        }
+
+        div{
+            background-color:var(--cor0);
+            color:var(--cor5);
+            margin: auto;
+            max-width: 80%;
+            font-size: 18px;
+            text-align: justify;
+            padding: 20px;
+            border: 3px solid var(--cor5);
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px var(--cor0);
+           
+        }
+
+        div > p{
+            padding: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav{
+            max-width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 10px;  
+        }
+
+       img{
+            padding: 5px;
+            border-radius: 50px;
+            transition: 0.2s;
+            border: 10px;
+            
+       }
+       img:hover{
+            background-color:var(--cor5);
+      
+            box-shadow: 0px 0px 10px var(--cor0);
+       }
+
+       footer{
+        background-color: var(--cor1);
+        color: var(--cor5);
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+       }
+       footer a{
+            text-decoration: none;
+            color: var(--cor5);
+       }
+
+       footer a:hover{
+            text-decoration: underline;
+            color: var(--cor4);
+       }
+    </style>
 </head>
 <body>
-    <h1>Alguns Podcastes legais!!</h1>
-    <p style="text-align: justify;">Primeiro é preciso saber que o podcast não é tão novidade assim. O formato surgiu em 1999 com o RSS, e entre 2001 e 2003, foram criados os primeiros programas por um funcionário americano da MTV , apaixonado por rádio, na Noruega. No Brasil, em 2006 surge o Nerdcast e o Café Brasil, primeiros programas dentro desse formato, que existem até hoje, inclusive. Foi em 2014 que ocorreu o primeiro boom de audiência, com o programa americano The Serial, em que uma jornalista revisitava um caso de assassinato antigo, com depoimentos da época e atuais, levantando uma série de questionamentos. De lá pra cá, empresas foram sinalizando crescente interesse no formato, como o próprio Spotify.</p>
-    <a href="cienciasemfim.html" rel="next"><img src="imagens/ciencia sem fim.png" alt="Logo do Ciência sem fim."></a>
-    <a href="flowpodcast.html" rel="next"><img src="imagens/flow podcast.png" alt="Logo do Flow Podcast."></a>
-    <br>
-    <a href="podpah.html" rel="next"><img src="imagens/podpah podcast.png" alt="Logo do Podepah Podcast."></a>
-    <a href="inteligencialtda.html"><img src="imagens/inteligencia ltda.png" alt="Logo do Inteligencia LTDA."></a>
+    <heard>
+        <h1>Principais Podcasts Brasileiros</h1>
+    </heard>
+    <main>
+        <div>
+            <p>O formato surgiu em 1999 com o RSS, e entre 2001 e 2003, foram criados os primeiros programas por um funcionário americano da MTV , apaixonado por rádio, na Noruega.
+            </p>
+            
+            <p>No Brasil, em 2006 surge o Nerdcast e o Café Brasil, primeiros programas dentro desse formato, que existem até hoje, inclusive.</p>
+            
+            <p>Foi em 2014 que ocorreu o primeiro boom de audiência, com o programa americano The Serial, em que uma jornalista revisitava um caso de assassinato antigo, com depoimentos da época e atuais, levantando uma série de questionamentos. De lá pra cá, empresas foram sinalizando crescente interesse no formato, como o próprio Spotify.</p>
+        </div>
+        
+        <nav>
+            <a href="podcasts/cienciasemfim.html" rel="next"><img class="img1" src="imagens/ciencia sem fim.png" alt="Logo do Ciência sem fim."></a>
+            <a href="podcasts/flowpodcast.html" rel="next"><img class="img2" src="imagens/flow podcast.png" alt="Logo do Flow Podcast."></a>
+            <a href="podcasts/podpah.html" rel="next"><img class="img3" src="imagens/podpah podcast.png" alt="Logo do Podepah Podcast."></a>
+            <a href="podcasts/inteligencialtda.html"><img class="img4" src="imagens/inteligencia ltda.png" alt="Logo do Inteligencia LTDA."></a>
+        </nav>
+        <footer>
+            <p>Site criado por <a href="https://github.com/PedroRodrigoLB">Pedro Rodrigo Leal de Barros</a></p>
+        </footer>
+    </main>
     
 
 </body>
