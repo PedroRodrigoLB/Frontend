@@ -2,7 +2,7 @@
 
 <img src="imagem/nebulosa.png">
 
-Estudo aplicado a HTML5 e CSS3
+## Estudo aplicado a HTML5 e CSS3
 <ul>
      
     <li><a href="https://pedrorodrigolb.github.io/Frontend/01-Blog/index.html" target="_black">Site Blog</a></li>
