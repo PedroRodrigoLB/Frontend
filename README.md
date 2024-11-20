@@ -14,5 +14,7 @@ Estudo aplicado a HTML5 e CSS3
     <li><a href="https://pedrorodrigolb.github.io/Frontend/05-imagens/index.html" target="_black">Site Android</a></li>
        
     <li><a href="https://pedrorodrigolb.github.io/Frontend/06-Cordel/index.html" target="_black">Site Cordel</a></li>
+
+    <li><a href="https://pedrorodrigolb.github.io/Frontend/07-Podcast/index.html" target="_black">Site Podcast</a></li>
     
 </ul>
