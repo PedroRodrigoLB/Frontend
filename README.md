@@ -1,7 +1,4 @@
-<styles>
-    backgroud-image: url(https://img.freepik.com/fotos-gratis/papel-de-parede-abstrato-ultra-detalhado-da-nebulosa-4_1562-749.jpg)
-</styles>
-
+<img src="imagem/nebulosa.png">
 
 # Frontend
 
