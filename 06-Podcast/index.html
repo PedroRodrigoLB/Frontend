@@ -12,99 +12,89 @@
         }
 
         :root{
-            --cor0:#0D0D0D;
-            --cor1:#401313;
-            --cor2:#8C2E2E;
-            --cor3:#F25252;
-            --cor4:#F20505;
+            --cor0:#000000;
+            --cor1:#222CF2;
+            --cor2:#1B63F2;
+            --cor3:#05F2F2;
+            --cor4:#05F2DB;
             --cor5:#ffffff;
+            --cor6:#F2B705;
         }
-
+        
         body{
-            background-color: var(--cor0);
             font-family: Arial, Helvetica, sans-serif;
         }
-            
-       heard h1{
+
+        heard h1{
             background-color: var(--cor1);
-            color:var(--cor5);
+            color: var(--cor5);
+
+            padding: 30px 10px;
+            margin: auto;
             text-align: center;
-            padding: 10px;
-            box-shadow: 0px 0px 5px var(--cor5);
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            
+            font-weight: 600;
+            font-size: 30px;
+            text-shadow: 1px 1px 0px black;
+            border-bottom: 1px solid black;
         }
 
         main{
-            max-width: 80%;
+            max-width: 1600px;
+            margin: auto;
+
+            height: 80vh;  /* tem que ser do topo a base da pagina */
+            
             background-color: var(--cor1);
-            margin: 10px auto;
-            padding: 20px;
-            box-shadow: 0px 0px 5px var(--cor5);
-            border-radius: 20px;
-         
+            padding: 10px;            
+            text-align: center;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
         }
 
         div{
-            background-color:var(--cor0);
-            color:var(--cor5);
-            margin: auto;
-            max-width: 80%;
-            font-size: 18px;
+            max-width: 60%;
+            background-color: var(--cor5);
+            color: var(--cor0);
+            margin: 40px auto;
+            padding: 20px;                  /* Dar espaço no inicio do paragrafo */
             text-align: justify;
-            padding: 20px;
-            border: 3px solid var(--cor5);
-            border-radius: 8px;
-            box-shadow: 2px 2px 5px var(--cor0);
-           
+            border-radius: 20px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 2px black;
         }
 
         div > p{
-            padding: 5px;
-            font-size: 16px;
-            font-weight: bold;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 400;
         }
 
-        nav{
-            max-width: 80%;
-            margin: auto;
-            text-align: center;
-            padding: 10px;  
-        }
+        /* Editar as imagens */
 
-       img{
-            padding: 5px;
-            border-radius: 50px;
-            transition: 0.2s;
-            border: 10px;
+        footer{
+            background-color: var(--cor1);
+            color: var(--cor5);
             
-       }
-       img:hover{
-            background-color:var(--cor5);
-      
-            box-shadow: 0px 0px 10px var(--cor0);
-       }
+            padding: 5px;
+            font-size: 12px;
+            border-top: 1px solid black;
 
-       footer{
-        background-color: var(--cor1);
-        color: var(--cor5);
-        text-align: center;
-        font-size: 12px;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-       }
-       footer a{
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+        footer a{
             text-decoration: none;
             color: var(--cor5);
-       }
+        }
 
-       footer a:hover{
+        footer a:hover{
             text-decoration: underline;
-            color: var(--cor4);
-       }
+            color: var(--cor6);
+        }
     </style>
 </head>
 <body>
