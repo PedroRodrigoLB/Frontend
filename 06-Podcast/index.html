@@ -22,42 +22,48 @@
         }
         
         body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        heard h1{
             background-color: var(--cor1);
-            color: var(--cor5);
-
-            padding: 30px 10px;
-            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        header{
+            padding: 5px;
+        }
+        heard h1{
+            background-color: var(--cor5);
+            color: var(--cor0);
+            max-width: 40%;
+            margin: 1% auto;
+            padding: 10px;
             text-align: center;
             font-weight: 600;
             font-size: 30px;
-            text-shadow: 1px 1px 0px black;
-            border-bottom: 1px solid black;
+            border: 1px solid black;
+            border-radius: 20px;
         }
 
         main{
-            max-width: 1600px;
-            margin: auto;
-
-            height: 80vh;  /* tem que ser do topo a base da pagina */
-            
-            background-color: var(--cor1);
+            background-color: var(--cor5);
             padding: 10px;            
+            margin: 5% auto;
+            max-width: 60%;
             text-align: center;
-            border-bottom: 1px solid black;
-            border-left: 1px solid black;
-            border-right: 1px solid black;
+            display: flexbox;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 2px black;
+            
         }
-
-        div{
+        main > div{
             max-width: 60%;
             background-color: var(--cor5);
             color: var(--cor0);
             margin: 40px auto;
-            padding: 20px;                  /* Dar espaço no inicio do paragrafo */
+            padding: 20px;       
+
+            /* Dar espaço no inicio do paragrafo */
             text-align: justify;
             border-radius: 20px;
             border: 1px solid black;
@@ -70,20 +76,29 @@
             font-weight: 400;
         }
 
-        /* Editar as imagens */
+        img{
+            padding: 5px;
+            max-width: 20%;
+            border-radius: 50%;
+        }
+
+        img:hover{
+            background-color: var(--cor3);
+            border: 1px solid black;
+        }
 
         footer{
-            background-color: var(--cor1);
             color: var(--cor5);
-            
-            padding: 5px;
-            font-size: 12px;
-            border-top: 1px solid black;
+           
+        }
 
-            width: 100%;
-            position: fixed;
+        .rodape{
+            position: relative;
             bottom: 0;
-            left: 0;
+            margin-top: 7%;
+            text-align: center; 
+            text-shadow: 1px 1px 0px black;
+            
         }
 
         footer a{
@@ -112,16 +127,17 @@
         </div>
         
         <nav>
-            <a href="podcasts/cienciasemfim.html" rel="next"><img class="img1" src="imagens/ciencia sem fim.png" alt="Logo do Ciência sem fim."></a>
-            <a href="podcasts/flowpodcast.html" rel="next"><img class="img2" src="imagens/flow podcast.png" alt="Logo do Flow Podcast."></a>
-            <a href="podcasts/podpah.html" rel="next"><img class="img3" src="imagens/podpah podcast.png" alt="Logo do Podepah Podcast."></a>
-            <a href="podcasts/inteligencialtda.html"><img class="img4" src="imagens/inteligencia ltda.png" alt="Logo do Inteligencia LTDA."></a>
+            <a href="podcasts/cienciasemfim.html" rel="next"><img class="img" src="imagens/ciencia sem fim.png" alt="Logo do Ciência sem fim."></a>
+            <a href="podcasts/flowpodcast.html" rel="next"><img class="img" src="imagens/flow podcast.png" alt="Logo do Flow Podcast."></a>
+            <a href="podcasts/podpah.html" rel="next"><img class="img" src="imagens/podpah podcast.png" alt="Logo do Podepah Podcast."></a>
+            <a href="podcasts/inteligencialtda.html"><img class="img" src="imagens/inteligencia ltda.png" alt="Logo do Inteligencia LTDA."></a>
         </nav>
-        <footer>
-            <p>Site criado por <a href="https://github.com/PedroRodrigoLB">Pedro Rodrigo Leal de Barros</a></p>
-        </footer>
     </main>
-    
+    <footer>
+        <div class="rodape">
+            <p>Site criado por <a href="https://github.com/PedroRodrigoLB">Pedro Rodrigo Leal de Barros</a></p>
+        </div>
+    </footer>
 
 </body>
 </html>
