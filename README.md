@@ -7,4 +7,5 @@
 <div>
     <li><a href="https://pedrorodrigolb.github.io/Frontend/Android/index.html" target="_black">Android</a></li>      
     <li><a href="https://pedrorodrigolb.github.io/Frontend/Podcast/index.html" target="_black">Podcast</a></li>
+    <li><a href="https://pedrorodrigolb.github.io/Frontend/Social/index.html" target="_black">Redes Sociais</a></li>
 </div>
