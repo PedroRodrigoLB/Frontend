@@ -1,11 +1,6 @@
 # Estudo Frontend
 <<<<<<< HEAD
 
-## Testando 
-
-
-=======
-## Teste
 >>>>>>> 807f5f1eea18c8b426a5802fcf6c606f812070b7
 <div>
 <img height=150 align="center" src="https://github-readme-stats.vercel.app/api?username=PedroRodrigoLB&show_icons=true&theme=buefy&rank_icon=github&include_all_commits=true" />
